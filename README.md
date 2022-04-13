@@ -1,1 +1,0 @@
-# warhammer-40k-theorycrafter

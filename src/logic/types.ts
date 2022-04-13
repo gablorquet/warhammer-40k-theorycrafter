@@ -16,6 +16,7 @@ export type Roll = {
     hitResult: RollResult;
     woundResult: RollResult[];
     saveResult: RollResult[];
+    damage: number;
 }
 
 export type Profile = {
@@ -24,10 +25,11 @@ export type Profile = {
         AP: number;
         hit: number;
         nbAttacks: number;
-        D: string;
+        D: string | number;
     },
     defender: {
         T: number;
+        HP: number;
         sv: number;
         inv: number;
         fnp: number;

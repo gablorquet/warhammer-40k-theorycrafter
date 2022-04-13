@@ -1,21 +1,20 @@
 {
-    "compilerOptions": {
-        "allowJs": true,
-        "jsx": "react-jsx",
-        "module": "commonjs",
-        "target": "ES2019",
-        "skipLibCheck": true,
-        "esModuleInterop": true,
-        "noImplicitAny": false,
-        "sourceMap": true,
-        "baseUrl": ".",
-        "moduleResolution": "node",
-        "resolveJsonModule": true,
-        "paths": {
-        }
-    },
-    "include": [
-        "./logic",
-        "./frontend"
-    ]
+  "compilerOptions": {
+  
+    "allowJs": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "jsx": "react-jsx",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["src/**/*"]
 }
